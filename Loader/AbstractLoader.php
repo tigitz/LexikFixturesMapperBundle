@@ -44,7 +44,7 @@ abstract class AbstractLoader
      * @param string        $mapperClass
      * @param string        $mapperCollectionDelimiter
      */
-    public function __construct($entityManager, array $adapters, Validator $validator, $mapperClass, $mapperCollectionDelimiter)
+    public function __construct($entityManager, array $adapters, RecursiveValidator $validator, $mapperClass, $mapperCollectionDelimiter)
     {
         $this->adapters                  = $adapters;
         $this->validator                 = $validator;
