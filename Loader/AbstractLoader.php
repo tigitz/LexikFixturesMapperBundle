@@ -2,7 +2,7 @@
 
 namespace Lexik\Bundle\FixturesMapperBundle\Loader;
 
-use Symfony\Component\Validator\Validator;
+use Symfony\Component\Validator\Validator\RecursiveValidator;
 
 /**
  * Base loader class for fixtures.
